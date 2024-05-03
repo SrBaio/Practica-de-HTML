@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html len="es">
+    <head>
+        <meta charset="UTF-8">
+        <title "Pagina principal"></title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <!--FORMULARIO-->
+        <form action="codigo.php" method="post">
+            <label>Usuario: </label><input type="text" placeholder="Usuario"> </label> <br>
+            <label>E-Mail: <input type="email" placeholder ="info@dominio.com"> </label> <br>
+            <label>Contraseña: <input type="password"> </label> <br>
+            <label>Numero: <input type="number" min="" max=""> </label> <br>
+            <label>Casado <input type="radio" name="estado"> </label> <br>
+            <label>Soltero <input type="radio" name="estado"> </label> <br>
+            <br>
+            <p>Preferencias</p>
+            <label><input type="checkbox" name="Preferencias" value="Caminar">Caminar</label>
+            <label><input type="checkbox" name="Preferencias" value="Correr">Correr</label>
+            <label><input type="checkbox" name="Preferencias" value="Bicicleta">Bicicleta</label>
+            <br>
+            <!--Menu desplegable-->
+            <label for="">
+                <select name="paises">
+                    <option value="" selected>Elige tu pais </option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                        <option value="uruguay">Uruguay</option>
+                    <option value="chile">Chile</option>
+                    <option value="peru">Peru</option>
+                </select>
+            </label>
+            <label for=""></label>
+                <select name="autos" multiple>
+                    <option value="fiat">Fiat</option>
+                    <option value="renault">Renault</option>
+                    <option value="jeep">Jeep</option>
+                </select>
+            </label>
+            <input class="archivos" type="file" name="archivos" multiple>
+            <label for="">Ingrese un comentario: <br><textarea name="textarea" cols="50" rows="5"></textarea></label>
+        </form>
+        
+    </body>
+</html>
