@@ -1,0 +1,30 @@
+*{
+    margin: 0px 0px 0px 10px;
+}
+form{
+    width: 80%;
+    /* height: 500px; */
+    border: 1px solid black;
+    margin: auto;
+}
+
+form *{
+    display: block;
+}
+
+label, input{
+    display: inline;
+    margin: 5px 10px 5px 10px;
+}
+
+.archivos{
+    display: block;
+}
+
+option{
+    margin: 3px 0px 0px 0px;
+}
+
+textarea{
+    columns: 100%;
+}
